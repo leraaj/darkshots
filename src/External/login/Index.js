@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 const Index = () => {
-  const api = "http://localhost:3001/api/";
+  // const api = "http://localhost:3001/api/";
+  const api = "https://darkshot-server.onrender.com/";
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const handleUsername = (e) => {
